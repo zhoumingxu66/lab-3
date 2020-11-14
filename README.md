@@ -18,7 +18,7 @@
 
 ## 试验过程
 1.首先对整体试验进行构思，需要一个类（博士研究生）并且设计两个接口一个为学生本身 一个为研究生助教。  
-···
+``` 
 class PhD implements Student, Teacher {
     public String name;
     public String sex;
@@ -30,13 +30,15 @@ class PhD implements Student, Teacher {
         this.name = name;
         this.sex = sex;
         this.age = age;
-    }
-···  
+    }  
+```
+
 2.将phd（研究生）类利用 implements方法继承给student和teacher  
 3.重写接口中的所有方法    
 4.最后在test类中利用数组的方式将两个人员进行输出在该环节用到了scanner进行输入  
-5.本实验设计到税收问题改程序编程大致内容如下
-···    
+5.本实验设计到税收问题改程序编程大致内容如下  
+.........................
+```
 final double tax_rate = 0.1;
         for (int i = 0; i < s.length; i++) {
             double net = t[i].checkSalary() * 12 - s[i].checkTuition();
@@ -44,7 +46,7 @@ final double tax_rate = 0.1;
             System.out.printf("%s的年应纳税金额为：%.2f\n", t[i].getName(), totalTax);
         }
     }  
-···  
+``` 
 ## 核心方法  
 1.scanner输入方法（注意int tuition = scanner.nextInt();输入条件的判定）
 2.接口基本知识（接口的定义、接口重写涉及到抽象方法和非抽象方法是否重写：抽象类不重写）  
