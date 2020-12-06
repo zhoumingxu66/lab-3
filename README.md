@@ -51,8 +51,9 @@ final double tax_rate = 0.1;
 1.scanner输入方法（注意int tuition = scanner.nextInt();输入条件的判定）
 2.接口基本知识（接口的定义、接口重写涉及到抽象方法和非抽象方法是否重写：抽象类不重写）  
 3.异常报错try{} catch{}
+4.final后的对象不能被调用和重写
 ## 试验结果
 !(https://github.com/zhoumingxu66/lab-3/blob/main/picture/55e35741af16ffbb5a7ebd285fdd647.jpg)  
 ## 试验心得  
 本次试验涉及到接口的继承该知识内容可以对照类的父类子类继承进行学习，异常报错知识点try{}后可以接多个catch代码块，在多个catch代码块下顺序应该是子类在上父类在下 级别越高顺序越靠下。
-
+在本次实验中还涉及到了一些其他知识内容比如for循环的书写方式。最重要的是在本章中熟悉掌握scanner输入法的。在输入结果是考虑代码的输入格式比如nextint（）或者txtnum都为整形。
